@@ -23,10 +23,10 @@ jobs:
             ${{ runner.os }}-base-
 
       - name: Install Dependencies
-        run: yarn install
+        run: npm install
 
       - name: Build Static File
-        run: CI='' yarn build  
+        run: CI='' npm build  
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v2
