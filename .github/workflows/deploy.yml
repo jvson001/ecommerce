@@ -36,4 +36,4 @@ jobs:
           aws-region: us-east-1
 
       - name: Deploy Static App to S3
-        run: aws s3 sync ./build s3://shopleft.com                      
+        run: aws s3 sync ./build s3://mygitagbucket                   
