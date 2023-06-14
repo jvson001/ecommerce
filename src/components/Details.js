@@ -44,7 +44,7 @@ export default class Details extends Component {
                                     <div>
                                        <Link to="/">
                                            <ButtonContainer>
-                                               back to products
+                                               back to productss
                                            </ButtonContainer>
                                         </Link>
                                             <ButtonContainer cart disabled={inCart ? true : false}
